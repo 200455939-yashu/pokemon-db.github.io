@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+
+	<head>
+		<!-- Local CSS -->
+		<link href="css/styles.css" rel="stylesheet" />
+		<!-- Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+			<!-- Bootstrap  javascript-->
+		<title>Pokemon</title>>
+
+	</head>
+	<body>
+		<div class="container bg-clr">
+		   <div class="row justify-content-center">
+				<img src="assets/Pokemon.png" alt="HTML icon">
+				<h1 class="text-center txt-clr"> Pokemon Database </h1>
+				<div id="pokemon_div">
+					<div class="pokemon_class" onClick="pokem_details('bulbasaur')">
+						<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/1.png" id="bulbasaur">
+						<h4 class="ml-4">Bulbasaur</h4>
+					</div>
+					<div class="pokemon_class" onClick="pokem_details('charmeleon')" >
+						<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/5.png" id="charmeleon">
+						<h4 class="ml-4">Charmeleon</h4>
+					</div>
+					<div class="pokemon_class" onClick="pokem_details('wartortle')">
+						<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/8.png" id="wartortle">
+						<h4 class="ml-4">Wartortle</h4>
+					</div>
+					<div class="pokemon_class" onClick="pokem_details('rattata')">
+						<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/19.png" id="rattata">
+						<h4 class="ml-4">Rattata</h4>
+					</div>
+					<div class="pokemon_class" onClick="pokem_details('venusaur')">
+						<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/3.png" id="venusaur">
+						<h4 class="ml-4">Venusaur</h4>
+					</div>		    		
+				</div> 
+				<div class="row">
+					<div class="specs col-lg-6 txt-clr text-center">
+						<h1>Secifications</h1>
+						<div class="spec_details">
+							<p id="spec_name"><strong>Name: </strong></p>
+							<p id="abilities_list"><strong>Abilities: </strong></p>
+							<p id="height"><strong>Height: </strong></p>
+							<p id="base_experience"><strong>Base Experience: </strong></p>
+						</div>
+					</div>
+					<div class="abilities col-lg-6 txt-clr text-center	">
+						<h1>Abilities</h1>
+						<div class="ability_detail">
+							<p id="ability_name"><strong>Ability Name: </strong></p>
+							<p id="effects"><strong>Ability Effect: </strong></p>
+							<p id="short_effect"><strong>Short Effect: </strong></p>
+							<p id="flavor_text"><strong>Flavor Text: </strong></p>
+						</div>
+	</div>
+				</div>
+			</div>
+		        <!-- Footer-->
+        <footer class="bg-light py-5">
+            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2021 - Pokemon Database</div></div>
+        </footer>
+	</body>
+	<!-- Local Javascript -->
+	<script src="js/scripts.js"></script>
+		</div>
+
+
+</html>

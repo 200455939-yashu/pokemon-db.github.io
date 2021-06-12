@@ -1,0 +1,42 @@
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.txt-clr{
+	color: white;
+}
+
+.bg-clr{
+	/*background-image: url('assets/Pkemon.jpg');*/
+	background-color: black;
+	padding-bottom: 20px;
+}
+
+.specs, .abilities{
+	border: 20px solid;
+	padding: 2rem;
+	margin: 10px 0px;
+	background-color: #053942;
+	border-image: linear-gradient(45deg, turquoise, greenyellow) 1;
+}
+
+.pokemon_class{
+	width: 15%;
+	background-color: #16b372ed;
+	height: 30vh;
+	float: left;
+	margin: 30px;
+	display: grid;
+	border: 8px solid;
+	padding: 1rem;
+	border-image: linear-gradient(45deg, turquoise, greenyellow) 1;
+}
